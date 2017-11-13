@@ -22,7 +22,7 @@ pod 'ReadersWriterLock'
 
 ## Author
 
-pcoltau@gmail.com, pelle@tlt.local
+pcoltau@gmail.com
 
 ## License
 
