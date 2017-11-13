@@ -1,6 +1,6 @@
+platform :ios, '9.3'
 use_frameworks!
 target 'ReadersWriterLock_Tests' do
   pod 'ReadersWriterLock', :path => '../'
-  
   
 end

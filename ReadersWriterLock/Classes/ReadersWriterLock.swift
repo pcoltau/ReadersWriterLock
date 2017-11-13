@@ -19,7 +19,7 @@ public final class ReadersWriterLock {
         lock.deallocate(capacity: 1)
     }
     
-    public func withReadLock<T>(body: () throws -> T) throws -> T {
+    public func withReadLock<T>(body: () throws -> T) rethrows -> T {
         pthread_rwlock_rdlock(lock)
         defer {
             pthread_rwlock_unlock(lock)
@@ -27,7 +27,7 @@ public final class ReadersWriterLock {
         return try body()
     }
     
-    public func withWriteLock<T>(body: () throws -> T) throws -> T {
+    public func withWriteLock<T>(body: () throws -> T) rethrows -> T {
         pthread_rwlock_wrlock(lock)
         defer {
             pthread_rwlock_unlock(lock)
