@@ -1,0 +1,6 @@
+framework module ReadersWriterLock {
+  umbrella header "ReadersWriterLock-umbrella.h"
+
+  export *
+  module * { export * }
+}
