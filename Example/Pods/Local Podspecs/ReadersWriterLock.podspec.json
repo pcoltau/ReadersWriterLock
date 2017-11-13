@@ -1,6 +1,6 @@
 {
   "name": "ReadersWriterLock",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "summary": "A Swift implementation of the readers-writer lock.",
   "description": "A readers-writer lock is a shared-exclusive lock. It allows for concurrent read locks, but require exclusive access to write locks.",
   "homepage": "https://github.com/pcoltau/ReadersWriterLock",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/pcoltau/ReadersWriterLock.git",
-    "tag": "1.0.0"
+    "tag": "1.0.2"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.3"
   },
   "source_files": "ReadersWriterLock/Classes/**/*"
 }

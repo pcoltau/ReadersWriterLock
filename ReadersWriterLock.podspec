@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ReadersWriterLock'
-  s.version          = '1.0.0'
+  s.version          = '1.0.2'
   s.summary          = 'A Swift implementation of the readers-writer lock.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ A readers-writer lock is a shared-exclusive lock. It allows for concurrent read 
   s.source           = { :git => 'https://github.com/pcoltau/ReadersWriterLock.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
 
   s.source_files = 'ReadersWriterLock/Classes/**/*'
   

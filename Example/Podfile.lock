@@ -1,5 +1,5 @@
 PODS:
-  - ReadersWriterLock (1.0.0)
+  - ReadersWriterLock (1.0.2)
 
 DEPENDENCIES:
   - ReadersWriterLock (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ReadersWriterLock: ba551d1f988f3792d6f88788490080f4a3715af4
+  ReadersWriterLock: db264e8a29dca97beb6a679544b0b9e11a823144
 
 PODFILE CHECKSUM: 99c5e60055e25a3a46e0b8cef43fbdf934629174
 
